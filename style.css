@@ -1,0 +1,138 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+body{
+background:lightgrey;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 24px;
+}
+
+
+
+.container{
+display: flex;
+max-width: 920px ;
+border-radius: 10px ;
+overflow: hidden;
+}
+
+
+
+.card{
+padding: 48px ;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.card img{
+width: 64px ;
+margin-bottom: 35px ;
+}
+
+
+
+.card h2{
+font-family: 'big shoulders display'cursive;
+font-size: 2.5rem;
+color: lightgray;
+text-transform: uppercase;
+margin-bottom: 25px ;
+}
+
+
+
+
+.card p{
+font-family: 'lexand decca';san-serif;
+font-size: 15px ;
+color:white;
+line-height: 1.7;
+margin-bottom: 80px  ;
+}
+
+
+
+.btn{
+font-family: Arial, Helvetica, sans-serif;
+background: lightgrey;
+border: 2px solid lightgrey;
+padding: 12px 30px ;
+border-radius: 25px ;
+text-decoration: none;
+font-size: 15px ;
+width: fit-content;
+transition: all 0.3s ease;
+}
+
+
+.btn:hover{
+background: transparent;
+color:lightgrey;
+}
+
+
+
+.sedan{
+background-color: orange;
+}
+
+
+
+.sedan .btn{
+    color:orange;
+}
+
+
+
+.sedan .btn:hover{
+color: lightgrey;
+
+}
+
+
+.SUV{
+    background-color: #087c83;
+}
+
+
+
+
+.SUV.btn:hover{
+color: lightgrey;
+ }
+
+
+
+
+.SUV .btn{
+    color: hsl(184, 100%, 22%);
+}
+
+
+
+.luxury{
+background-color:#004b49;
+}
+
+
+
+.luxury .btn{
+color:#004b49;
+}
+
+
+
+.luxury.btn:hover{
+color: lightgrey;
+
+}
